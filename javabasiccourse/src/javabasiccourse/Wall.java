@@ -21,7 +21,7 @@ public class Wall {
 		setHeight(b);
 		}
 	private void setWidth(double a) {
-		if(a>0.0) {
+		if(a>=0.0) {
 		this.width=a;
 	}
 		else {
@@ -29,7 +29,7 @@ public class Wall {
 		}
 	}
 	private void setHeight(double b) {
-		if(b>0.0){
+		if(b>=0.0){
 			this.height=b;
 		}
 		else {
